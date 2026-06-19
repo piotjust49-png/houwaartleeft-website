@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://houwaartleeft.be'),
   title: 'Houwaart Leeft',
-  description: 'Het meerdaagse dorps- en scoutsfeest van Houwaart.',
+  description: 'Het meerdaagse dorpsfeest van Houwaart.',
   openGraph: {
     siteName: 'Houwaart Leeft',
     type: 'website',

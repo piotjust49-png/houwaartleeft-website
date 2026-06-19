@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "Houwaart Leeft",
     "home": {
-      "title": "Houwaart Leeft 2026 – Dorps- & scoutsfeest in Houwaart",
-      "description": "Houwaart Leeft is het meerdaagse dorps- en scoutsfeest in Houwaart op 11, 12 en 13 september 2026. Houwaart Zingt, wijnloop, de knollenquiz en een familiedag voor jong en oud."
+      "title": "Houwaart Leeft 2026 – Dorpsfeest in Houwaart",
+      "description": "Houwaart Leeft is het meerdaagse dorpsfeest in Houwaart op 11, 12 en 13 september 2026. Houwaart Zingt, wijnloop, de knollenquiz en een familiedag voor jong en oud."
     }
   },
   "nav": {
@@ -33,7 +33,7 @@
   "about": {
     "kicker": "Wat is het?",
     "title": "Een feest van en voor het dorp",
-    "p1": "Houwaart Leeft is het meerdaagse dorps- en scoutsfeest van Houwaart. Drie dagen lang brengen we het dorp samen met muziek, een wijnloop, de knollenquiz en een uitgebreide familiedag.",
+    "p1": "Houwaart Leeft is het meerdaagse dorpsfeest van Houwaart. Drie dagen lang brengen we het dorp samen met muziek, een wijnloop, de knollenquiz en een uitgebreide familiedag.",
     "p2": "Het feest steunt de jeugdwerking van de scouts, versterkt de band tussen bewoners, verenigingen en lokale ondernemers, én wil vooral één ding zijn: een toegankelijk familiefestival waar iedereen — jong en oud — zich welkom voelt.",
     "pillars": [
       { "icon": "🎤", "title": "Houwaart Zingt", "text": "Gezellig meezingen op de openingsavond, met DJ Ceke nadien." },
@@ -142,7 +142,7 @@
     "facebookUrl": "https://www.facebook.com/"
   },
   "footer": {
-    "tagline": "Het meerdaagse dorps- en scoutsfeest van Houwaart.",
+    "tagline": "Het meerdaagse dorpsfeest van Houwaart.",
     "org": "Een organisatie van Scouts Houwaart · Vlaams-Brabant",
     "rights": "Alle rechten voorbehouden"
   }
