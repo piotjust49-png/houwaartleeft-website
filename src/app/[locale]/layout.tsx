@@ -54,6 +54,20 @@ export async function generateMetadata({
     },
     openGraph: {
       locale,
+      type: 'website',
+      siteName: t('siteName'),
+      images: [
+        {
+          url: '/img/cover.jpg',
+          width: 820,
+          height: 360,
+          alt: 'Houwaart Leeft',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['/img/cover.jpg'],
     },
   };
 }
