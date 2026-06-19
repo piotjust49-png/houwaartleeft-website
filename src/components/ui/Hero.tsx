@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import StringLights from './StringLights';
 
 // Startdatum van het feest (countdown-doel).
 // Maand is 0-gebaseerd: 8 = september. → vr 11 sep 2026, 20u00.
@@ -49,9 +50,12 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative flex items-center min-h-[92vh] overflow-hidden text-center text-white py-24 bg-gradient-to-b from-hl-sage to-hl-green"
+      className="relative flex items-center min-h-[92vh] overflow-hidden text-center text-white py-24 bg-gradient-to-b from-[#b3cd9a] via-hl-sage to-hl-green"
     >
-      <div className="absolute inset-0 bg-dots opacity-40 pointer-events-none" />
+      <div className="absolute inset-0 bg-dots opacity-30 pointer-events-none" />
+
+      {/* Lampjesslingers zoals op de cover */}
+      <StringLights className="absolute inset-x-0 top-0 h-[150px] w-full z-[1] pointer-events-none" />
 
       {/* Ronde badge zoals op de affiche */}
       <div className="hidden sm:flex absolute -bottom-16 -right-16 lg:-bottom-12 lg:-right-12 w-56 h-56 lg:w-64 lg:h-64 rounded-full bg-hl-green-dark/95 rotate-[-8deg] items-center justify-center text-center shadow-xl pointer-events-none">
@@ -65,14 +69,20 @@ export default function Hero() {
           {t('kicker')}
         </p>
 
-        <h1 className="leading-[0.92] mb-4">
-          <span className="block font-display text-6xl sm:text-7xl lg:text-8xl tracking-wide [text-shadow:0_4px_0_rgba(31,58,95,0.25)]">
-            HOUWAART
-          </span>
-          <span className="block font-marker text-5xl sm:text-6xl lg:text-7xl text-hl-orange -mt-1 -rotate-2 [text-shadow:0_3px_0_rgba(0,0,0,0.15)]">
-            Leeft
-          </span>
-        </h1>
+        <div className="relative inline-block mb-4">
+          <span
+            aria-hidden="true"
+            className="absolute -inset-x-12 -inset-y-8 bg-hl-pale/35 blur-2xl rounded-[45%]"
+          />
+          <h1 className="relative leading-[0.92]">
+            <span className="block font-display text-6xl sm:text-7xl lg:text-8xl tracking-wide [text-shadow:0_4px_0_rgba(31,58,95,0.25)]">
+              HOUWAART
+            </span>
+            <span className="block font-marker text-5xl sm:text-6xl lg:text-7xl text-hl-orange -mt-1 -rotate-2 [text-shadow:0_3px_0_rgba(0,0,0,0.15)]">
+              Leeft
+            </span>
+          </h1>
+        </div>
 
         <p className="inline-block font-heading font-bold text-lg sm:text-2xl bg-hl-orange text-white px-6 py-2 rounded-full shadow mb-4">
           {t('dates')}
