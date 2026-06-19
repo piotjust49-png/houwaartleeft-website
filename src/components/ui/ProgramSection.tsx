@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import type { ProgramDay } from '@/types';
 
 export default function ProgramSection() {
@@ -60,7 +61,15 @@ export default function ProgramSection() {
           ))}
         </div>
 
-        <p className="text-center mt-8 text-hl-navy/65 text-sm">{t('note')}</p>
+        <div className="text-center mt-10">
+          <Link
+            href="/quiz-inschrijven"
+            className="inline-flex items-center px-7 py-3.5 bg-hl-orange text-white font-heading font-semibold rounded-full shadow hover:bg-hl-orange-dark hover:-translate-y-0.5 transition-all"
+          >
+            {t('quizCta')}
+          </Link>
+        </div>
+        <p className="text-center mt-6 text-hl-navy/65 text-sm">{t('note')}</p>
       </div>
     </section>
   );

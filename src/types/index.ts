@@ -1,6 +1,6 @@
 export type Locale = 'nl';
 
-export type AppPathname = '/';
+export type AppPathname = '/' | '/quiz-inschrijven';
 
 export interface ProgramItem {
   time: string;

@@ -44,6 +44,22 @@ website/
 - **Een extra taal toevoegen** → voeg de locale toe in `src/i18n/routing.ts`
   en maak een `messages/<locale>.json`.
 
+## Quizinschrijvingen (e-mail)
+
+De pagina `/quiz-inschrijven` stuurt bij het invullen twee e-mails via SMTP:
+één melding naar `info@houwaartleeft.be` en een bevestiging naar de inschrijver.
+De API-route staat in `src/app/api/quiz/route.ts`; spam wordt tegengehouden met
+een honeypot-veld.
+
+Configureer SMTP via omgevingsvariabelen (zie `.env.example`):
+
+```
+SMTP_HOST, SMTP_PORT, SMTP_SECURE, SMTP_USER, SMTP_PASS
+```
+
+Lokaal: kopieer `.env.example` naar `.env`. In productie staan ze al in
+`docker-compose.yml` (lees je `.env` automatisch in).
+
 ## Lokaal ontwikkelen
 
 ```bash

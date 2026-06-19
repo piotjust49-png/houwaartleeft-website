@@ -46,6 +46,7 @@
     "kicker": "Wat staat er op het menu?",
     "title": "Het programma",
     "note": "Het volledige uurschema en de line-up volgen dichter bij het evenement. Volg ons op Facebook voor updates.",
+    "quizCta": "Schrijf je ploeg in voor de quiz",
     "days": [
       {
         "weekday": "vr",
@@ -140,6 +141,36 @@
     "facebookLabel": "Facebook",
     "facebookName": "Houwaart Leeft",
     "facebookUrl": "https://www.facebook.com/"
+  },
+  "quiz": {
+    "metaTitle": "Inschrijven – De Knollenquiz",
+    "metaDescription": "Schrijf je ploeg in voor De Knollenquiz op zaterdag 12 september 2026 tijdens Houwaart Leeft.",
+    "back": "← Terug naar de website",
+    "kicker": "Zaterdag 12 september 2026 · 19u30",
+    "title": "Schrijf je ploeg in voor De Knollenquiz",
+    "intro": "Verzamel je slimste vrienden en strijd mee in De Knollenquiz tijdens Houwaart Leeft. Vul het formulier in en je ontvangt meteen een bevestiging per e-mail. Plaatsen zijn beperkt — wie eerst komt, eerst maalt!",
+    "info": [
+      "📅 Zaterdag 12 september 2026, 19u30 – 23u",
+      "📍 Houwaart (Tielt-Winge)",
+      "🧠 Ploegen tot 6 personen"
+    ]
+  },
+  "quizForm": {
+    "teamName": "Ploegnaam",
+    "contactName": "Naam contactpersoon",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "participants": "Aantal deelnemers",
+    "remarks": "Opmerkingen (optioneel)",
+    "remarksPlaceholder": "Allergieën, vragen, ...",
+    "submit": "Schrijf onze ploeg in",
+    "sending": "Bezig met versturen...",
+    "required": "Verplicht veld",
+    "successTitle": "Bedankt, jullie zijn ingeschreven!",
+    "successText": "We hebben jullie inschrijving goed ontvangen. Je krijgt zo dadelijk een bevestiging in je mailbox. Tot op de quiz!",
+    "errorTitle": "Er ging iets mis",
+    "errorText": "De inschrijving kon niet verstuurd worden. Probeer het later opnieuw of mail ons rechtstreeks via info@houwaartleeft.be.",
+    "again": "Nog een ploeg inschrijven"
   },
   "footer": {
     "tagline": "Het meerdaagse dorpsfeest van Houwaart.",

@@ -90,6 +90,7 @@ export default async function LocaleLayout({
   const clientMessages = {
     nav: allMessages.nav,
     hero: allMessages.hero,
+    quizForm: allMessages.quizForm,
   };
 
   return (

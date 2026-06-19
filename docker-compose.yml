@@ -7,3 +7,9 @@ services:
       - "3003:3000"
     environment:
       - NODE_ENV=production
+      # SMTP voor het versturen van quizinschrijvingen (zet deze in een .env-bestand)
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_SECURE=${SMTP_SECURE:-false}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}

@@ -8,6 +8,7 @@ export const routing = defineRouting({
   localeDetection: true,
   pathnames: {
     '/': '/',
+    '/quiz-inschrijven': '/quiz-inschrijven',
   },
 });
 
