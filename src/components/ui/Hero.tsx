@@ -54,8 +54,8 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-dots opacity-30 pointer-events-none" />
 
-      {/* Lampjesslingers zoals op de cover */}
-      <StringLights className="absolute inset-x-0 top-0 h-[150px] w-full z-[1] pointer-events-none" />
+      {/* Lampjesslingers zoals op de cover — één streng loopt achter de titel */}
+      <StringLights className="absolute inset-0 h-full w-full z-[1] pointer-events-none" />
 
       {/* Ronde badge zoals op de affiche */}
       <div className="hidden sm:flex absolute -bottom-16 -right-16 lg:-bottom-12 lg:-right-12 w-56 h-56 lg:w-64 lg:h-64 rounded-full bg-hl-green-dark/95 rotate-[-8deg] items-center justify-center text-center shadow-xl pointer-events-none">
