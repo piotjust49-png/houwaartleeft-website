@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
-import { Anton, Fredoka, Inter } from 'next/font/google';
+import { Anton, Fredoka, Inter, Permanent_Marker } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
@@ -24,6 +24,13 @@ const fredoka = Fredoka({
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  display: 'swap',
+});
+
+const permanentMarker = Permanent_Marker({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-marker',
   display: 'swap',
 });
 
@@ -74,7 +81,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${anton.variable} ${fredoka.variable} ${inter.variable}`}
+      className={`${anton.variable} ${permanentMarker.variable} ${fredoka.variable} ${inter.variable}`}
     >
       <body className="font-body bg-hl-cream text-hl-navy antialiased">
         <NextIntlClientProvider messages={clientMessages}>

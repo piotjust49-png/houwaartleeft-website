@@ -13,7 +13,8 @@ const config: Config = {
         'hl-green': '#6f9d6a',
         'hl-green-dark': '#4f7f63',
         'hl-green-light': '#8fb073',
-        'hl-mint': '#cfe3c0',
+        'hl-sage': '#a7c48d',
+        'hl-mint': '#d2e8c4',
         'hl-pale': '#eef5e6',
         'hl-orange': '#e8662a',
         'hl-orange-dark': '#cf551e',
@@ -23,6 +24,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ['var(--font-anton)', 'sans-serif'],
+        marker: ['var(--font-marker)', 'cursive'],
         heading: ['var(--font-fredoka)', 'sans-serif'],
         body: ['var(--font-inter)', 'sans-serif'],
       },
