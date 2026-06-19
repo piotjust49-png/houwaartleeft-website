@@ -20,9 +20,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#top" className="flex items-baseline gap-1 shrink-0">
-            <span className="font-heading font-bold text-2xl text-hl-navy">Houwaart</span>
-            <span className="font-heading font-bold text-2xl text-hl-orange">Leeft</span>
+          <a href="#top" className="flex items-baseline gap-1.5 shrink-0">
+            <span className="font-display text-2xl text-hl-navy tracking-wide">HOUWAART</span>
+            <span className="font-marker text-xl text-hl-orange -rotate-2">Leeft</span>
           </a>
 
           {/* Desktop Nav */}

@@ -7,8 +7,9 @@ export default function Footer() {
   return (
     <footer className="bg-hl-navy text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
-        <p className="font-heading font-bold text-2xl">
-          Houwaart <span className="text-hl-orange">Leeft</span>
+        <p className="flex items-baseline justify-center gap-2">
+          <span className="font-display text-2xl tracking-wide">HOUWAART</span>
+          <span className="font-marker text-xl text-hl-orange -rotate-2">Leeft</span>
         </p>
         <p className="mt-2 text-white/80 text-sm">{t('tagline')}</p>
         <p className="mt-1 text-white/70 text-sm">{t('org')}</p>
