@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "siteName": "Houwaart Leeft",
+    "home": {
+      "title": "Houwaart Leeft 2026 – Dorps- & scoutsfeest in Houwaart",
+      "description": "Houwaart Leeft is het meerdaagse dorps- en scoutsfeest in Houwaart op 11, 12 en 13 september 2026. Houwaart Zingt, wijnloop, de knollenquiz en een familiedag voor jong en oud."
+    }
+  },
+  "nav": {
+    "over": "Over",
+    "programma": "Programma",
+    "eten": "Eten & drank",
+    "praktisch": "Praktisch",
+    "sponsors": "Sponsors",
+    "contact": "Contact",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "hero": {
+    "kicker": "Een organisatie van Scouts Houwaart",
+    "dates": "11 · 12 · 13 september 2026",
+    "subtitle": "Drie dagen dorps- & scoutsfeest voor jong en oud. Met hamburgers en cocktails!",
+    "ctaProgram": "Bekijk het programma",
+    "ctaSponsor": "Word sponsor",
+    "countdown": {
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "min",
+      "seconds": "sec",
+      "live": "🎉 Het feest is begonnen — welkom in Houwaart!"
+    }
+  },
+  "about": {
+    "kicker": "Wat is het?",
+    "title": "Een feest van en voor het dorp",
+    "p1": "Houwaart Leeft is het meerdaagse dorps- en scoutsfeest van Houwaart. Drie dagen lang brengen we het dorp samen met muziek, een wijnloop, de knollenquiz en een uitgebreide familiedag.",
+    "p2": "Het feest steunt de jeugdwerking van de scouts, versterkt de band tussen bewoners, verenigingen en lokale ondernemers, én wil vooral één ding zijn: een toegankelijk familiefestival waar iedereen — jong en oud — zich welkom voelt.",
+    "pillars": [
+      { "icon": "🎤", "title": "Houwaart Zingt", "text": "Gezellig meezingen op de openingsavond, met DJ Ceke nadien." },
+      { "icon": "🍷", "title": "Wijnloop met DJ", "text": "Hét hoogtepunt van de zaterdagnamiddag." },
+      { "icon": "🧠", "title": "De knollenquiz", "text": "Strijd mee om de eer in onze dorpsquiz." },
+      { "icon": "🚵", "title": "Familiedag", "text": "MTB-toertocht, kinderanimatie en verse smoutebollen." }
+    ]
+  },
+  "program": {
+    "kicker": "Wat staat er op het menu?",
+    "title": "Het programma",
+    "note": "Het volledige uurschema en de line-up volgen dichter bij het evenement. Volg ons op Facebook voor updates.",
+    "days": [
+      {
+        "weekday": "vr",
+        "day": "11",
+        "month": "sep",
+        "tag": "Openingsavond",
+        "items": [
+          { "time": "20u", "title": "Doors" },
+          { "time": "21u–1u", "title": "Houwaart Zingt", "description": "Meezingen dat het dorp samenbrengt." },
+          { "time": "1u–2u", "title": "DJ Ceke", "description": "De afterparty zet de toon voor het weekend." }
+        ]
+      },
+      {
+        "weekday": "za",
+        "day": "12",
+        "month": "sep",
+        "tag": "Drukste dag",
+        "featured": true,
+        "items": [
+          { "time": "13u", "title": "Wijnloop met DJ", "description": "De hoofdactiviteit van de zaterdag." },
+          { "time": "19u30–23u", "title": "De knollenquiz", "description": "Interactieve rondes en mooie prijzen." },
+          { "time": "23u", "title": "Praatcafé", "description": "Nagenieten tot in de late uurtjes." }
+        ]
+      },
+      {
+        "weekday": "zo",
+        "day": "13",
+        "month": "sep",
+        "tag": "Familiedag",
+        "items": [
+          { "time": "7u–10u30", "title": "Los door den bos", "description": "Inschrijvingen MTB-toertocht." },
+          { "time": "13u–17u", "title": "Kinderanimatie", "description": "Springplezier en animatie voor de kleinsten." },
+          { "time": "heel dag", "title": "Verse smoutebollen", "description": "De zoete afsluiter van het weekend." }
+        ]
+      }
+    ]
+  },
+  "food": {
+    "kicker": "Voor de inwendige mens",
+    "title": "Eten & drank",
+    "eat": {
+      "title": "🍔 Eten",
+      "text": "Een gevarieerd aanbod met hamburgers als belangrijkste item, aangevuld met snacks en frituur. Voor de zoetekauw: ijs en verse smoutebollen. Op zondag voorzien we ontbijt en koffie."
+    },
+    "drink": {
+      "title": "🍹 Drank",
+      "text": "Bier, frisdrank en cava, met een cocktail- en aperolbar voor wie het wat specialer wil. Voor kinderen en niet-drinkers zijn er steeds kindvriendelijke alternatieven."
+    }
+  },
+  "practical": {
+    "kicker": "Goed om te weten",
+    "title": "Praktisch",
+    "items": [
+      { "icon": "📍", "title": "Locatie", "text": "Houwaart (Tielt-Winge). Exact adres volgt." },
+      { "icon": "🅿️", "title": "Parking", "text": "Aparte parking en fietsparking voorzien, volg de bewegwijzering ter plaatse." },
+      { "icon": "🎟️", "title": "Toegang", "text": "Een toegankelijk familiefestival. Inschrijven voor de quiz en de MTB-tocht via Facebook." },
+      { "icon": "🥤", "title": "Op het terras", "text": "Drank in glazen blijft binnen de afgebakende terraszone (geen glas erbuiten)." }
+    ]
+  },
+  "sponsors": {
+    "kicker": "Samen maken we het mogelijk",
+    "title": "Word sponsor",
+    "intro": "Sponsoring is de financiële basis van Houwaart Leeft én een directe steun voor de jeugdwerking van de scouts. In ruil krijg je zichtbaarheid bij heel het dorp. Wij werken met drie pakketten:",
+    "popular": "Populair",
+    "interest": "Interesse",
+    "packages": [
+      {
+        "name": "Basis",
+        "desc": "Zichtbaarheid via projectie en het programmaboekje.",
+        "features": ["Logo in het programmaboekje", "Vermelding via projectie"]
+      },
+      {
+        "name": "Midden",
+        "desc": "Alles van Basis, plus extra visuele aanwezigheid.",
+        "featured": true,
+        "features": ["Alles uit Basis", "Banner op het terrein", "Consumpties inbegrepen"]
+      },
+      {
+        "name": "Premium",
+        "desc": "Maximale zichtbaarheid met extra voordelen.",
+        "features": ["Alles uit Midden", "Maximale zichtbaarheid", "Extra voordelen voor de sponsor"]
+      }
+    ],
+    "cta": "Interesse om te sponsoren? Neem contact op en we bezorgen je graag de volledige sponsormap."
+  },
+  "contact": {
+    "kicker": "Een vraag of voorstel?",
+    "title": "Contact",
+    "text": "Heb je een vraag over het programma, wil je sponsoren of meehelpen als vrijwilliger? Laat het ons weten — we horen graag van je.",
+    "emailLabel": "E-mail",
+    "email": "info@houwaartleeft.be",
+    "facebookLabel": "Facebook",
+    "facebookName": "Houwaart Leeft",
+    "facebookUrl": "https://www.facebook.com/"
+  },
+  "footer": {
+    "tagline": "Het meerdaagse dorps- en scoutsfeest van Houwaart.",
+    "org": "Een organisatie van Scouts Houwaart · Vlaams-Brabant",
+    "rights": "Alle rechten voorbehouden"
+  }
+}
