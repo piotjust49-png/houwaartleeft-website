@@ -89,7 +89,7 @@
     "title": "Eten & drank",
     "eat": {
       "title": "🍔 Eten",
-      "text": "Een gevarieerd aanbod met hamburgers als belangrijkste item, aangevuld met snacks en frituur. Voor de zoetekauw: ijs en verse smoutebollen. Op zondag voorzien we ontbijt en koffie."
+      "text": "Een gevarieerd aanbod met hamburgers als belangrijkste item, aangevuld met snacks. Voor de zoetekauw: ijs en verse smoutebollen. Op zondag voorzien we ontbijt en koffie."
     },
     "drink": {
       "title": "🍹 Drank",
@@ -109,27 +109,13 @@
   "sponsors": {
     "kicker": "Samen maken we het mogelijk",
     "title": "Word sponsor",
-    "intro": "Sponsoring is de financiële basis van Houwaart Leeft én een directe steun voor de jeugdwerking van de scouts. In ruil krijg je zichtbaarheid bij heel het dorp. Wij werken met drie pakketten:",
-    "popular": "Populair",
-    "interest": "Interesse",
-    "packages": [
-      {
-        "name": "Basis",
-        "desc": "Zichtbaarheid via projectie en het programmaboekje.",
-        "features": ["Logo in het programmaboekje", "Vermelding via projectie"]
-      },
-      {
-        "name": "Midden",
-        "desc": "Alles van Basis, plus extra visuele aanwezigheid.",
-        "featured": true,
-        "features": ["Alles uit Basis", "Banner op het terrein", "Consumpties inbegrepen"]
-      },
-      {
-        "name": "Premium",
-        "desc": "Maximale zichtbaarheid met extra voordelen.",
-        "features": ["Alles uit Midden", "Maximale zichtbaarheid", "Extra voordelen voor de sponsor"]
-      }
-    ],
+    "intro": "Sponsoring is de financiële basis van Houwaart Leeft én een directe steun voor de jeugdwerking van de scouts. In ruil krijg je zichtbaarheid bij heel het dorp.",
+    "interest": "Ik wil sponsoren",
+    "package": {
+      "name": "Word sponsor",
+      "desc": "Steun het feest en krijg zichtbaarheid bij heel het dorp.",
+      "features": ["Logo in het programmaboekje", "Vermelding via projectie", "Banner op het terrein"]
+    },
     "cta": "Interesse om te sponsoren? Neem contact op en we bezorgen je graag de volledige sponsormap."
   },
   "contact": {
