@@ -27,23 +27,23 @@
       "hours": "uren",
       "minutes": "min",
       "seconds": "sec",
-      "live": "🎉 Het feest is begonnen — welkom in Houwaart!"
+      "live": "🎉 Allen welkom in Houwaart!"
     }
   },
   "about": {
     "kicker": "Wat is het?",
     "title": "Een feest van en voor het dorp",
     "p1": "Houwaart Leeft is het meerdaagse dorpsfeest van Houwaart. Drie dagen lang brengen we het dorp samen met muziek, een wijnloop, de knollenquiz en een uitgebreide familiedag.",
-    "p2": "Het feest steunt de jeugdwerking van de scouts, versterkt de band tussen bewoners, verenigingen en lokale ondernemers, én wil vooral één ding zijn: een toegankelijk familiefestival waar iedereen — jong en oud — zich welkom voelt.",
+    "p2": "Het feest steunt de jeugdwerking van de scouts, versterkt de band tussen bewoners, verenigingen en lokale ondernemers, én wil vooral één ding zijn: een toegankelijk familiefestival waar iedereen , jong en oud , zich welkom voelt.",
     "pillars": [
-      { "icon": "🎤", "title": "Houwaart Zingt", "text": "Gezellig meezingen op de openingsavond, met DJ Ceke nadien." },
-      { "icon": "🍷", "title": "Wijnloop met DJ", "text": "Hét hoogtepunt van de zaterdagnamiddag." },
-      { "icon": "🧠", "title": "De knollenquiz", "text": "Strijd mee om de eer in onze dorpsquiz." },
-      { "icon": "🚵", "title": "Familiedag", "text": "MTB-toertocht, kinderanimatie en verse smoutebollen." }
+      { "icon": "🎤", "title": "Houwaart Zingt", "text": "Onze klassieker om het weekend te openen, onder begeleiding van (waarschijnlijk) het meest iconische duo op Houwaarts grondgebied, Afterparty met DJ Soundwarz." },
+      { "icon": "🍷", "title": "De Houwaartse Wijnloop", "text": "Al jaren een gevestigde waarde op Houwaart Leeft. Dit jaar ook voorzien van een DJ voor zij die komen supporteren" },
+      { "icon": "🧠", "title": "De knollenquiz", "text": "De allereerste editie van onze Houwaartse knollenquiz. Waarom de knollenquiz? Goede vraag. Wil je nog goede vragen horen en er eventueel zelfs beantwoorden , schrijf je dan zeker in!" },
+      { "icon": "🚵", "title": "Familiedag", "text": "MTB-toertocht voor degene die nog kunnen, kinderanimatie en verse smoutebollen voor degene die nog willen." }
     ]
   },
   "program": {
-    "kicker": "Wat staat er op het menu?",
+    "kicker": "Wat is er nu eigenlijk te doen?",
     "title": "Het programma",
     "note": "Het volledige uurschema en de line-up volgen dichter bij het evenement. Volg ons op Facebook voor updates.",
     "quizCta": "Schrijf je ploeg in voor de quiz",
@@ -52,23 +52,23 @@
         "weekday": "vr",
         "day": "11",
         "month": "sep",
-        "tag": "Openingsavond",
+        "tag": "Gratis toegang",
         "items": [
           { "time": "20u", "title": "Doors" },
-          { "time": "21u–1u", "title": "Houwaart Zingt", "description": "Meezingen dat het dorp samenbrengt." },
-          { "time": "1u–2u", "title": "DJ Ceke", "description": "De afterparty zet de toon voor het weekend." }
+          { "time": "21u–1u", "title": "Houwaart Zingt", "description": "De klassieker tijdens ons weekend, dit jaar onder nieuwe begeleiding." },
+          { "time": "1u–2u", "title": "DJ Soundwarz", "description": "De afterparty , voor te garanderen dat je zaterdag geen stem meer hebt." }
         ]
       },
       {
         "weekday": "za",
         "day": "12",
         "month": "sep",
-        "tag": "Drukste dag",
+        "tag": "Inschrijven!",
         "featured": true,
         "items": [
-          { "time": "13u", "title": "Wijnloop met DJ", "description": "De hoofdactiviteit van de zaterdag." },
-          { "time": "19u30–23u", "title": "De knollenquiz", "description": "Interactieve rondes en mooie prijzen." },
-          { "time": "23u", "title": "Praatcafé", "description": "Nagenieten tot in de late uurtjes." }
+          { "time": "13u", "title": "De Houwaartse Wijnloop", "description": "Een gevestigde waarde op Houwaart Leeft." },
+          { "time": "19u30–23u", "title": "de Houwaartse Knollenquiz", "description": "Quiz op D-niveau met mooie prijzen." },
+          { "time": "23u", "title": "Praatcafé", "description": "Iedereen welkom om nog wat na te genieten." }
         ]
       },
       {
@@ -85,23 +85,23 @@
     ]
   },
   "food": {
-    "kicker": "Voor de inwendige mens",
+    "kicker": "Honger en dorst",
     "title": "Eten & drank",
     "eat": {
       "title": "🍔 Eten",
-      "text": "Een gevarieerd aanbod met hamburgers als belangrijkste item, aangevuld met snacks. Voor de zoetekauw: ijs en verse smoutebollen. Op zondag voorzien we ontbijt en koffie."
+      "text": "Hamburgers zijn er heel het weekend. Liever iets zoet? Ga zeker eens langs bij de ijskraam. Op zondag voorzien we smoutebollen!."
     },
     "drink": {
       "title": "🍹 Drank",
-      "text": "Bier, frisdrank en cava, met een cocktail- en aperolbar voor wie het wat specialer wil. Voor kinderen en niet-drinkers zijn er steeds kindvriendelijke alternatieven."
+      "text": "Bier, frisdrank en cava, uiteraard. Dit jaar voegen we ook cocktails en mocktails toe aan de kaart! WAT? Niet genoeg? Allé dan , Aperol van 't vat!"
     }
   },
   "practical": {
     "kicker": "Goed om te weten",
     "title": "Praktisch",
     "items": [
-      { "icon": "📍", "title": "Locatie", "text": "Houwaart (Tielt-Winge). Exact adres volgt." },
-      { "icon": "🅿️", "title": "Parking", "text": "Aparte parking en fietsparking voorzien, volg de bewegwijzering ter plaatse." },
+      { "icon": "📍", "title": "Locatie", "text": "Houwaart (Tielt-Winge). Op het scoutsterrein , Haldertstraat 11A." },
+      { "icon": "🅿️", "title": "Parking", "text": "Parkeren kan in het dorp , maar respecteer natuurlijk de inwoners!" },
       { "icon": "🎟️", "title": "Toegang", "text": "Een toegankelijk familiefestival. Inschrijven voor de quiz en de MTB-tocht via Facebook." },
       { "icon": "🥤", "title": "Op het terras", "text": "Drank in glazen blijft binnen de afgebakende terraszone (geen glas erbuiten)." }
     ]
@@ -138,7 +138,7 @@
     "info": [
       "📅 Zaterdag 12 september 2026, 19u30 – 23u",
       "📍 Houwaart (Tielt-Winge)",
-      "🧠 Ploegen tot 6 personen"
+      "🧠 Ploegen tot 5 personen"
     ]
   },
   "quizForm": {
