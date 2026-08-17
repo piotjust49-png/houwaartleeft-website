@@ -77,9 +77,9 @@
         "month": "sep",
         "tag": "Familiedag",
         "items": [
-          { "time": "7u–10u30", "title": "Los door den bos", "description": "Inschrijvingen MTB-toertocht." },
+          { "time": "7u–10u30", "title": "Los door den bos", "description": "Inschrijvingen MTB-toertocht zondag in de tent!" },
           { "time": "13u–17u", "title": "Kinderanimatie", "description": "Springplezier en animatie voor de kleinsten." },
-          { "time": "heel dag", "title": "Verse smoutebollen", "description": "De zoete afsluiter van het weekend." }
+          { "time": "hele dag", "title": "Verse smoutebollen", "description": "De zoete afsluiter van het weekend." }
         ]
       }
     ]
@@ -89,7 +89,7 @@
     "title": "Eten & drank",
     "eat": {
       "title": "🍔 Eten",
-      "text": "Hamburgers zijn er heel het weekend. Liever iets zoet? Ga zeker eens langs bij de ijskraam. Op zondag voorzien we smoutebollen!."
+      "text": "Hamburgers zijn er heel het weekend. Liever iets zoet? Ga zeker eens langs bij de ijskraam. Op zondag voorzien we smoutebollen!"
     },
     "drink": {
       "title": "🍹 Drank",
@@ -102,7 +102,7 @@
     "items": [
       { "icon": "📍", "title": "Locatie", "text": "Houwaart (Tielt-Winge). Op het scoutsterrein , Haldertstraat 11A." },
       { "icon": "🅿️", "title": "Parking", "text": "Parkeren kan in het dorp , maar respecteer natuurlijk de inwoners!" },
-      { "icon": "🎟️", "title": "Toegang", "text": "Een toegankelijk familiefestival. Inschrijven voor de quiz en de MTB-tocht via Facebook." },
+      { "icon": "🎟️", "title": "Toegang", "text": "Een toegankelijk familiefestival. Inschrijven voor de quiz verplicht!" },
       { "icon": "🥤", "title": "Op het terras", "text": "Drank in glazen blijft binnen de afgebakende terraszone (geen glas erbuiten)." }
     ]
   },
